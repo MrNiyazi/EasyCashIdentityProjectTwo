@@ -21,4 +21,10 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EasyCashIdentityProject.BusinesLayer\EasyCashIdentityProject.BusinesLayer.csproj" />
+    <ProjectReference Include="..\EasyCashIdentityProject.DataAccesLayer\EasyCashIdentityProject.DataAccesLayer.csproj" />
+    <ProjectReference Include="..\EasyCashIdentityProject.EntityLayer\EasyCashIdentityProject.EntityLayer.csproj" />
+  </ItemGroup>
+
 </Project>
